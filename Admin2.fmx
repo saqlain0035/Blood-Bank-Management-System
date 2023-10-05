@@ -1,0 +1,136 @@
+object myAdmin2: TmyAdmin2
+  Left = 512
+  Top = 106
+  Caption = 'Admin'
+  ClientHeight = 473
+  ClientWidth = 297
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  Left = 512
+  Top = 106
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Position.X = 80.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'O Positive:'
+    TabOrder = 14
+  end
+  object op: TLabel
+    Position.X = 153.000000000000000000
+    Position.Y = 80.000000000000000000
+    TabOrder = 15
+  end
+  object Label2: TLabel
+    Position.X = 80.000000000000000000
+    Position.Y = 120.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'A Positive:'
+    TabOrder = 10
+  end
+  object ap: TLabel
+    Position.X = 153.000000000000000000
+    Position.Y = 120.000000000000000000
+    TabOrder = 11
+  end
+  object Label4: TLabel
+    Position.X = 80.000000000000000000
+    Position.Y = 160.000000000000000000
+    Size.Width = 57.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'B Positive:'
+    TabOrder = 6
+  end
+  object bp: TLabel
+    Position.X = 153.000000000000000000
+    Position.Y = 160.000000000000000000
+    TabOrder = 7
+  end
+  object Label6: TLabel
+    Position.X = 72.000000000000000000
+    Position.Y = 200.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'AB Positive:'
+    TabOrder = 2
+  end
+  object abp: TLabel
+    Position.X = 153.000000000000000000
+    Position.Y = 200.000000000000000000
+    TabOrder = 3
+  end
+  object Label8: TLabel
+    Position.X = 72.000000000000000000
+    Position.Y = 240.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'O Negative:'
+    TabOrder = 12
+  end
+  object on: TLabel
+    Position.X = 153.000000000000000000
+    Position.Y = 240.000000000000000000
+    TabOrder = 13
+  end
+  object Label10: TLabel
+    Position.X = 72.000000000000000000
+    Position.Y = 280.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'A Negative:'
+    TabOrder = 8
+  end
+  object an: TLabel
+    Position.X = 153.000000000000000000
+    Position.Y = 280.000000000000000000
+    TabOrder = 9
+  end
+  object Label12: TLabel
+    Position.X = 72.000000000000000000
+    Position.Y = 320.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'B Negative:'
+    TabOrder = 4
+  end
+  object bn: TLabel
+    Position.X = 153.000000000000000000
+    Position.Y = 320.000000000000000000
+    TabOrder = 5
+  end
+  object Label14: TLabel
+    Position.X = 64.000000000000000000
+    Position.Y = 360.000000000000000000
+    Size.Width = 73.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'AB Negative:'
+    TabOrder = 0
+  end
+  object abn: TLabel
+    Position.X = 153.000000000000000000
+    Position.Y = 360.000000000000000000
+    TabOrder = 1
+  end
+  object updateButton: TButton
+    Position.X = 96.000000000000000000
+    Position.Y = 408.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 17
+    Text = 'Update'
+    OnClick = updateButtonClick
+  end
+end

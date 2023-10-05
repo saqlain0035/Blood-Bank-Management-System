@@ -1,0 +1,67 @@
+object myAdminLogin: TmyAdminLogin
+  Left = 490
+  Top = 192
+  Caption = 'Admin Login'
+  ClientHeight = 244
+  ClientWidth = 330
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  Left = 490
+  Top = 192
+  DesignerMasterStyle = 0
+  object adminUsernameEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 144.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 169.000000000000000000
+    Size.Height = 38.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label1: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 64.000000000000000000
+    Text = 'Admin Username:'
+    TabOrder = 4
+  end
+  object adminPasswordEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    Position.X = 144.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 169.000000000000000000
+    Size.Height = 38.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label2: TLabel
+    Position.X = 16.000000000000000000
+    Position.Y = 136.000000000000000000
+    Text = 'Admin Password:'
+    TabOrder = 1
+  end
+  object adminLoginButton: TButton
+    Position.X = 112.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Text = 'Login'
+    OnClick = adminLoginButtonClick
+  end
+  object messageLabel: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 176.000000000000000000
+    TabOrder = 7
+    object adminMessageLabel: TLabel
+      Position.X = 8.000000000000000000
+      Position.Y = 25.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+    end
+  end
+end

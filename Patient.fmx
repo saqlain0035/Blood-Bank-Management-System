@@ -1,0 +1,62 @@
+object myPatient: TmyPatient
+  Left = 533
+  Top = 234
+  Caption = 'Patient'
+  ClientHeight = 243
+  ClientWidth = 295
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  Left = 533
+  Top = 234
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Position.X = 24.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Blood group required:'
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Position.X = 24.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'No. of packets required:'
+    TabOrder = 1
+  end
+  object bgEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 2
+    Position.X = 168.000000000000000000
+    Position.Y = 72.000000000000000000
+  end
+  object packetEdit: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 168.000000000000000000
+    Position.Y = 128.000000000000000000
+  end
+  object patientButton: TButton
+    Position.X = 88.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'Submit'
+    OnClick = patientButtonClick
+  end
+  object patientMessage: TLabel
+    Position.X = 33.000000000000000000
+    Position.Y = 167.000000000000000000
+    Size.Width = 224.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+  end
+end

@@ -1,0 +1,34 @@
+object myDonorPatient: TmyDonorPatient
+  Left = 512
+  Top = 298
+  Caption = 'Donor Patient'
+  ClientHeight = 138
+  ClientWidth = 346
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  Left = 512
+  Top = 298
+  DesignerMasterStyle = 0
+  object donorEdit: TButton
+    Position.X = 48.000000000000000000
+    Position.Y = 68.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    Text = 'Donor'
+    OnClick = donorEditClick
+  end
+  object patientEdit: TButton
+    Position.X = 192.000000000000000000
+    Position.Y = 68.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Text = 'Patient'
+    OnClick = patientEditClick
+  end
+end

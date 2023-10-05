@@ -1,0 +1,44 @@
+object MyMainForm: TMyMainForm
+  Left = 490
+  Top = 298
+  Caption = 'Main'
+  ClientHeight = 183
+  ClientWidth = 353
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  Left = 490
+  Top = 298
+  DesignerMasterStyle = 0
+  object loginNavigationButton: TButton
+    Position.X = 48.000000000000000000
+    Position.Y = 108.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    Text = 'Login'
+    OnClick = loginNavigationButtonClick
+  end
+  object registrationNavigationButton: TButton
+    Position.X = 192.000000000000000000
+    Position.Y = 108.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Text = 'Registration'
+    OnClick = registrationNavigationButtonClick
+  end
+  object adminNavigationButton: TButton
+    Position.X = 96.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    Text = 'Admin Login'
+    OnClick = adminNavigationButtonClick
+  end
+end
